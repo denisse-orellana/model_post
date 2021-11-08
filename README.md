@@ -7,7 +7,7 @@ This project presents the developing of a simple post model using AJAX (Asynchro
 * [Ruby and Rails versions](#ruby-and-rails-versions)
 * [Gems](#gems)
 * [1. Adding Boostrap](#1-adding-boostrap)
-* [2. Defining the model and controllers](#2-defining-the-model-and-controllers)
+* [2. Defining the model and controller](#2-defining-the-model-and-controller)
 * [3. Implementing the CRUD with AJAX](#3-implementing-the-crud-with-ajax)
   + [3.1 The routes](#31-the-routes)
   + [3.2 Creating the Index](#32-creating-the-index)
@@ -70,7 +70,7 @@ application.css
 @import 'bootstrap';
 @import "font-awesome";
 ```
-## 2. Defining the model and controllers
+## 2. Defining the model and controller
 
 <p align="center"><img width="30%" src="app/assets/images/post_model.png"></p>
 
