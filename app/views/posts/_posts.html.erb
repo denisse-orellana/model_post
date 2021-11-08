@@ -1,0 +1,14 @@
+<div class="card m-1 mx-auto" style="width: 60%;" id="post-<%= post.id %>">
+    <div class="card-body" id="posts">        
+        <h5 class="card-title"><%= post.title %></h5>
+        <h6 class="card-subtitle mb-2"></h6><%= time_ago_in_words(post.created_at) %> ago</h6>
+        <div class="container text-center mt-2">
+            <p class="card-text"><%= post.content %></p>
+        </div>
+    </div>
+    <div class="container text-center mb-3">
+        <%= link_to post, remote: true, class: 'btn btn-success' do fa_icon "eye 2x" end %>
+        <%= link_to edit_post_path(post), remote: true, class: 'btn btn-warning' do fa_icon "edit 2x" end %>
+        <%= link_to post, remote: true, method: :delete, data: { confirm: 'Are you sure about this?' }, class: 'btn btn-danger' do fa_icon "trash 2x" end %>
+    </div>
+</div>

@@ -1,0 +1,18 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Make your thoughts known</h1>
+
+<div id="my_form"></div>
+
+<div id="post"></div>
+
+<div id="new_button" class="container py-2">
+    <%= render 'new_button' %>
+</div>
+
+<div class="container">
+    <% @posts.each do |post| %>
+        <%= render 'posts', post: post %>
+    <% end %>
+</div>
+ 
