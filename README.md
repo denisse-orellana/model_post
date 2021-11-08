@@ -203,7 +203,7 @@ $('#my_form').append('<%= escape_javascript render('posts/form') %>');
 $('#new_button').html(' ');
 ```
 
-Then it can be seen in the logs that the processing was made by javascript:
+Then it can be seen in the logs that the processing belongs to javascript:
 ```
 Started GET "/posts/new" for ::1 at 2021-11-08 18:04:09 -0300
 Processing by PostsController#new as JS
