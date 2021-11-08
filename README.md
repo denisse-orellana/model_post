@@ -2,6 +2,22 @@
 
 This project presents the developing of a simple post model using AJAX (Asynchronous JavaScript and XML) from scratch.
 
+## Table of contents
+
+* [Ruby and Rails versions](#ruby-and-rails-versions)
+* [Gems](#gems)
+* [1. Adding Boostrap](#1-adding-boostrap)
+* [2. Defining the model and controllers](#2-defining-the-model-and-controllers)
+* [3. Implementing the CRUD with AJAX](#3-implementing-the-crud-with-ajax)
+  + [3.1 The routes](#31-the-routes)
+  + [3.2 Creating the Index](#32-creating-the-index)
+  + [3.3 New](#33-new)
+  + [3.4 Show](#34-show)
+  + [3.5 Create](#35-create)
+  + [3.6 Edit](#36-edit)
+  + [3.7 Update](#37-update)
+  + [3.8 Delete](#38-delete)
+
 ## Ruby and Rails versions
 
 * ruby '2.6.1'
@@ -89,7 +105,7 @@ Rails.application.routes.draw do
 end
 ```
 
-### 3.2. Creating the Index
+### 3.2 Creating the Index
 
 The partial form is added:
 
