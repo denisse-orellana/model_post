@@ -2,6 +2,10 @@
 
 This project presents the developing of a simple post model using AJAX (Asynchronous JavaScript and XML) from scratch.
 
+## Preview
+
+The project was upload to heroku and can be seen here: [Model post](https://serene-inlet-93108.herokuapp.com)
+
 ## Table of contents
 
 * [Ruby and Rails versions](#ruby-and-rails-versions)
