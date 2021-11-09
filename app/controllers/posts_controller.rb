@@ -17,6 +17,7 @@ class PostsController < ApplicationController
 
   def create
     @post = Post.new(post_params)
+    sleep 2
     respond_to do |format|
       if @post.save
         format.js { render layout: false, notice: 'Post created!' }
